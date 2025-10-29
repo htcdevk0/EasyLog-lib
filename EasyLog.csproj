@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6.0;net7.0;net8.0;net9.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <OutputType>Library</OutputType>
+    <PackageId>net.EasyLog</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>htcdevk0</Authors>
+    <Description>EasyLog is a lightweight C# logging library for colorful, clear, and organized console logs on Windows. 
+    Supports info, warning, error messages, and variable logging with names and values. 
+    Ideal for quick debugging and monitoring.</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+
+    <PackageProjectUrl>https://easylog-lib.sbs</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/htcdevk0/EasyLog-lib</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>Logo.png</PackageIcon>
+    <PackageTags>hardware;system;info;dotnet;requestmachine</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Logo.png" Pack="true" PackagePath="" />
+    <None Include="README.md" Pack="true" PackagePath="" />
+  </ItemGroup>
+
+</Project>
